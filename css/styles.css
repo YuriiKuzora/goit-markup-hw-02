@@ -1,7 +1,14 @@
 body {
-   color: black;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background-color: #FFFFFF;
+   color: #212121;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+ul {
+   list-style: none;
+}
+
+/* ?Header */
 
 .page-header {}
 
@@ -25,7 +32,7 @@ body {
    color: #000000;
 }
 
-.link {
+.site-nav {
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
@@ -35,8 +42,10 @@ body {
    color: #212121;
 }
 
-.link:hover,
-.contact-link:hover {
+.site-nav:hover,
+.site-nav:focus,
+.contact-link:hover,
+.contact-link:focus {
    color: #2196F3;
 }
 
@@ -50,7 +59,30 @@ body {
    color: #757575;
 }
 
-.title {}
+/* ?Section 1 */
+
+.title {
+   background-color: #2F303A;
+
+}
+
+.text {
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 60px;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+/* ?Section 2 */
+
+.subject {
+   background-color: #f5f5f5;
+}
+
 
 .button {
    width: 216px;
@@ -60,16 +92,41 @@ body {
    border-radius: 4px;
 }
 
-.subject {}
+/* ?Section 3 */
 
-.heading {}
+.heading {
+   background-color: #F5F4FA;
+
+}
+
+.igor {
+   background: #FFFFFF;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 0px 0px 4px 4px;
+}
+
+.olga {
+   background: #FFFFFF;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 0px 0px 4px 4px;
+}
+
+.mykola {
+   background: #FFFFFF;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 0px 0px 4px 4px;
+}
+
+.mykhaylo {
+   background: #FFFFFF;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 0px 0px 4px 4px;
+}
+
+/* ?Footer */
 
 .footer {
-   width: 1600px;
-   height: 252px;
-   left: 0px;
-   top: 2094px;
-   background: #2F303A;
+   background-color: #2F303A;
 }
 
 .footer-logo {
