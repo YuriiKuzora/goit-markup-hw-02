@@ -27,6 +27,7 @@ ul {
    font-size: 26px;
    line-height: 1.19;
    color: var(--button-color);
+   text-decoration: none;
 }
 
 .logo-studio {
