@@ -81,6 +81,7 @@ ul {
    background-color: var(--button-color);
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    border-radius: 4px;
+   cursor: pointer;
 }
 
 .button-text {
@@ -114,11 +115,9 @@ ul {
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
-   color: var(--text-color-black);
 }
 
 .subject .desc {
-   font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
    color: var(--text-color-silver);
@@ -147,7 +146,6 @@ ul {
 }
 
 .heading .desc {
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.18;
    color: var(--text-color-silver);
@@ -170,7 +168,6 @@ ul {
 
 .link-maps {
    font-style: normal;
-   font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
    color: var(--text-color-white);
@@ -187,7 +184,7 @@ ul {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.62;
-   color: var(--text-color-black);
+   cursor: pointer;
 }
 
 .list .button:hover,
@@ -208,7 +205,6 @@ ul {
 }
 
 .items .desc {
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.87;
    color: var(--text-color-silver);
