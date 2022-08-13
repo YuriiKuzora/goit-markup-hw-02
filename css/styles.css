@@ -1,12 +1,15 @@
 :root {
    --background-color-white: #ffffff;
    --text-color-white: #ffffff;
+   --text-color-silver: #757575;
+   --text-color-black: #212121;
+   --button-color: #2196f3;
 
 }
 
 body {
    background-color: var(--background-color-white);
-   color: #212121;
+   color: var(--text-color-black);
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -20,49 +23,40 @@ ul {
 
 .logo-web {
    font-family: 'Raleway';
-   font-style: normal;
    font-weight: 700;
    font-size: 26px;
-   line-height: 31px;
-   letter-spacing: 0.03em;
-   color: #2196F3;
+   line-height: 1.19;
+   color: var(--button-color);
 }
 
 .logo-studio {
    font-family: 'Raleway';
-   font-style: normal;
    font-weight: 700;
    font-size: 26px;
-   line-height: 31px;
-   letter-spacing: 0.03em;
+   line-height: 1.19;
    color: #000000;
 }
 
 .site-nav {
-   font-family: 'Roboto';
-   font-style: normal;
    font-weight: 500;
    font-size: 14px;
-   line-height: 16px;
-   letter-spacing: 0.02em;
-   color: #212121;
+   line-height: 1.14;
+   color: var(--text-color-black);
 }
 
 .site-nav:hover,
 .site-nav:focus,
 .contact-link:hover,
 .contact-link:focus {
-   color: #2196F3;
+   color: var(--button-color);
 }
 
 .contact-link {
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
    font-size: 14px;
-   line-height: 16px;
-   letter-spacing: 0.02em;
-   color: #757575;
+   line-height: 1.14;
+   color: var(--text-color-silver);
 }
 
 /* ?Section 1 */
@@ -72,13 +66,10 @@ ul {
 
 }
 
-.text {
-   font-style: normal;
+.title .subtitle {
    font-weight: 900;
    font-size: 44px;
-   line-height: 60px;
-   text-align: center;
-   letter-spacing: 0.06em;
+   line-height: 1.5;
    text-transform: uppercase;
    color: var(--text-color-white);
 }
@@ -86,12 +77,16 @@ ul {
 .button {
    width: 216px;
    height: 50px;
-   background-color: #2196F3;
+   background-color: var(--button-color);
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    border-radius: 4px;
 }
 
 .button-text {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.87;
+   text-align: center;
    color: var(--text-color-white);
 }
 
@@ -103,16 +98,32 @@ ul {
 
 .visually-hidden {
    position: absolute;
-   white-space: nowrap;
    width: 1px;
-   height: 1px;
    overflow: hidden;
-   border: 0;
-   padding: 0;
-   clip: rect(0 0 0 0);
-   clip-path: inset(50%);
-   margin: -1px;
 }
+
+.subject .subtitle {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+}
+
+.subject .slogan {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+   color: var(--text-color-black);
+}
+
+.subject .desc {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   color: var(--text-color-silver);
+}
+
+
 
 
 /* ?Section 3 */
@@ -122,29 +133,25 @@ ul {
 
 }
 
-.igor {
-   background-color: var(--background-color-white);
-   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-   border-radius: 0px 0px 4px 4px;
+.heading .slogan {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
 }
 
-.olga {
-   background-color: var(--background-color-white);
-   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-   border-radius: 0px 0px 4px 4px;
+.heading .subtitle {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.18;
 }
 
-.mykola {
-   background-color: var(--background-color-white);
-   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-   border-radius: 0px 0px 4px 4px;
+.heading .desc {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.18;
+   color: var(--text-color-silver);
 }
 
-.mykhaylo {
-   background-color: var(--background-color-white);
-   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-   border-radius: 0px 0px 4px 4px;
-}
 
 /* ?Footer */
 
@@ -152,29 +159,56 @@ ul {
    background-color: #2F303A;
 }
 
-.footer-logo {
-   margin-left: 215px;
-   margin-bottom: 161px;
-}
-
-.logo-studio-white {
+.footer .logo-studio {
    font-family: 'Raleway';
-   font-style: normal;
    font-weight: 700;
    font-size: 26px;
-   line-height: 31px;
-   letter-spacing: 0.03em;
+   line-height: 1.19;
    color: var(--text-color-white);
 }
 
-.list {}
-
 .link-maps {
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
-   line-height: 24px;
-   letter-spacing: 0.03em;
-   color: slategrey;
+   line-height: 1.71;
+   color: var(--text-color-white);
+}
+
+/* ?Portfolio */
+
+
+.list .button {
+   background-color: #F5F4FA;
+   width: auto;
+   height: 38px;
+   border-radius: 4px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   color: var(--text-color-black);
+}
+
+.list .button:hover,
+.list .button:focus {
+   background: var(--button-color);
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-radius: 4px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   color: var(--text-color-white);
+}
+
+.items .slogan {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+}
+
+.items .desc {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.87;
+   color: var(--text-color-silver);
 }
