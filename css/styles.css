@@ -90,6 +90,7 @@ ul {
 }
 
 .button {
+   font-family: Roboto;
    width: 216px;
    height: 50px;
    background-color: var(--button-color);
@@ -120,6 +121,7 @@ ul {
 }
 
 .subject .subtitle {
+   font-size: 14px;
    font-weight: 700;
    line-height: 1.14;
    text-transform: uppercase;
