@@ -12,12 +12,12 @@
 }
 
 body {
+   width: 1600px;
    background-color: var(--background-color-white);
    color: var(--text-color-black);
    font-family: Roboto, sans-serif;
    font-size: 14px;
    letter-spacing: 0.03em;
-   ;
 }
 
 h1,
@@ -33,6 +33,7 @@ ol {
    margin-top: 0px;
    margin-bottom: 0px;
    padding-left: 0px;
+
 }
 
 button {
@@ -53,11 +54,26 @@ img {
    text-decoration: none;
 }
 
+.container {
+   width: 1170px;
+   margin-left: 200px;
+   margin-right: 200px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
 /* ?Header */
 
-.page-header {}
+.page-heade {}
+
+.logo-header {
+   margin-top: 24px;
+   margin-bottom: 25px;
+}
 
 .logo {
+   border: 1px solid #f44336;
+
    font-family: 'Raleway';
    font-weight: 700;
    font-size: 26px;
@@ -71,6 +87,11 @@ img {
    font-size: 26px;
    line-height: 1.19;
    color: var(--accent-color);
+}
+
+.nav {
+   margin-top: 32px;
+   margin-bottom: 32px;
 }
 
 .site-nav {
@@ -102,11 +123,14 @@ img {
 /* ?Section 1 */
 
 .title {
+   width: 1600px;
+   height: 600px;
    background-color: var(--background-color-fond);
 
 }
 
 .title .subtitle {
+   text-align: center;
    font-weight: 900;
    font-size: 44px;
    line-height: 1.5;
@@ -146,6 +170,10 @@ img {
 }
 
 .subject .subtitle {
+   border: 1px solid #f44336;
+   margin-top: 94px;
+   margin-bottom: 10px;
+
    font-size: 14px;
    font-weight: 700;
    line-height: 1.14;
@@ -153,6 +181,10 @@ img {
 }
 
 .subject .slogan {
+   border: 1px solid #f44336;
+   margin-top: 94px;
+   margin-bottom: 50px;
+
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
@@ -161,6 +193,10 @@ img {
 .subject .desc {
    line-height: 1.71;
    color: var(--text-color-silver);
+}
+
+.subject .imeg {
+   margin-bottom: 94px;
 }
 
 
@@ -174,18 +210,26 @@ img {
 }
 
 .heading .slogan {
+   margin-top: 94px;
+   margin-bottom: 50px;
+
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
 }
 
 .heading .subtitle {
+   margin-top: 30px;
+
    font-weight: 500;
    font-size: 16px;
    line-height: 1.18;
 }
 
 .heading .desc {
+   margin-top: 10px;
+   margin-bottom: 30px;
+
    font-size: 16px;
    line-height: 1.18;
    color: var(--text-color-silver);
@@ -196,7 +240,15 @@ img {
 
 .footer {
    background-color: var(--background-color-fond);
+   width: 1600px;
+   height: 252px;
 }
+
+.logo-footer {
+   padding-top: 60px;
+   padding-bottom: 20px;
+}
+
 
 .footer .accent {
    font-family: 'Raleway';
@@ -213,16 +265,25 @@ img {
 }
 
 .list .contact-link {
+   padding-top: 9px;
+
    font-weight: 400;
    line-height: 1.71;
    letter-spacing: 0.03em;
    color: rgba(255, 255, 255, 0.6);
 }
 
+.contact-link:last-of-type {
+   padding-bottom: 60px;
+}
+
 /* ?Portfolio */
 
 
 .list .button {
+   margin-top: 94px;
+   margin-bottom: 34px;
+
    background-color: var(--heading-background-color);
    width: auto;
    height: 38px;
