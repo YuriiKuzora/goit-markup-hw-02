@@ -33,7 +33,7 @@ ol {
    margin-top: 0px;
    margin-bottom: 0px;
    padding-left: 0px;
-
+   list-style: none;
 }
 
 button {
@@ -46,9 +46,7 @@ img {
    height: auto;
 }
 
-.list {
-   list-style: none;
-}
+.list {}
 
 .link {
    text-decoration: none;
@@ -245,7 +243,6 @@ img {
 }
 
 .logo-footer {
-   padding-top: 60px;
    padding-bottom: 20px;
 }
 
@@ -258,17 +255,20 @@ img {
    color: var(--text-color-white);
 }
 
-/* ?Важливо */
-
-
-.list:not(:last-child) {
-   margin-bottom: 9px;
-}
 
 .link-maps {
    font-style: normal;
    line-height: 1.71;
    color: var(--text-color-white);
+   margin-bottom: 9px;
+}
+
+.list {
+   margin-bottom: 9px;
+}
+
+.list:last-child {
+   margin-bottom: 0;
 }
 
 .list .contact-link {
