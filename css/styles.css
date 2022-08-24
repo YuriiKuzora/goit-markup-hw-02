@@ -46,8 +46,6 @@ img {
    height: auto;
 }
 
-.list {}
-
 .link {
    text-decoration: none;
 }
@@ -62,16 +60,7 @@ img {
 
 /* ?Header */
 
-.page-heade {}
-
-.logo-header {
-   margin-top: 24px;
-   margin-bottom: 25px;
-}
-
 .logo {
-   border: 1px solid #f44336;
-
    font-family: 'Raleway';
    font-weight: 700;
    font-size: 26px;
@@ -87,10 +76,7 @@ img {
    color: var(--accent-color);
 }
 
-.nav {
-   margin-top: 32px;
-   margin-bottom: 32px;
-}
+.nav {}
 
 .site-nav {
    font-weight: 500;
@@ -121,14 +107,11 @@ img {
 /* ?Section 1 */
 
 .title {
-   width: 1600px;
-   height: 600px;
    background-color: var(--background-color-fond);
 
 }
 
 .title .subtitle {
-   text-align: center;
    font-weight: 900;
    font-size: 44px;
    line-height: 1.5;
@@ -168,10 +151,6 @@ img {
 }
 
 .subject .subtitle {
-   border: 1px solid #f44336;
-   margin-top: 94px;
-   margin-bottom: 10px;
-
    font-size: 14px;
    font-weight: 700;
    line-height: 1.14;
@@ -179,10 +158,6 @@ img {
 }
 
 .subject .slogan {
-   border: 1px solid #f44336;
-   margin-top: 94px;
-   margin-bottom: 50px;
-
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
@@ -197,19 +172,13 @@ img {
    margin-bottom: 94px;
 }
 
-
-
-
 /* ?Section 3 */
 
 .heading {
    background-color: var(--heading-background-color);
-
 }
 
 .heading .slogan {
-   margin-top: 94px;
-   margin-bottom: 50px;
 
    font-weight: 700;
    font-size: 36px;
@@ -217,17 +186,12 @@ img {
 }
 
 .heading .subtitle {
-   margin-top: 30px;
-
    font-weight: 500;
    font-size: 16px;
    line-height: 1.18;
 }
 
 .heading .desc {
-   margin-top: 10px;
-   margin-bottom: 30px;
-
    font-size: 16px;
    line-height: 1.18;
    color: var(--text-color-silver);
@@ -242,11 +206,6 @@ img {
    height: 252px;
 }
 
-.logo-footer {
-   padding-bottom: 20px;
-}
-
-
 .footer .accent {
    font-family: 'Raleway';
    font-weight: 700;
@@ -255,20 +214,11 @@ img {
    color: var(--text-color-white);
 }
 
-
 .link-maps {
    font-style: normal;
    line-height: 1.71;
    color: var(--text-color-white);
    margin-bottom: 9px;
-}
-
-.list {
-   margin-bottom: 9px;
-}
-
-.list:last-child {
-   margin-bottom: 0;
 }
 
 .list .contact-link {
@@ -278,17 +228,10 @@ img {
    color: rgba(255, 255, 255, 0.6);
 }
 
-.contact-link:last-of-type {
-   padding-bottom: 60px;
-}
-
 /* ?Portfolio */
 
 
 .list .button {
-   margin-top: 94px;
-   margin-bottom: 34px;
-
    background-color: var(--heading-background-color);
    width: auto;
    height: 38px;
@@ -297,7 +240,6 @@ img {
    font-size: 16px;
    line-height: 1.62;
 }
-
 
 .list .button:hover,
 .list .button:focus {
